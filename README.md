@@ -2,7 +2,7 @@
 
 Check out the picks:-
 
-<table><tr><th><img src="https://github.com/Meet-kasediya/Color-palette/blob/master/Untitled.png" alt="https://github.com/Meet-kasediya/Color-palette/blob/master/paint.png" height="350" width="400"></th><th><img src="https://github.com/Meet-kasediya/Color-palette/blob/master/paint.png" alt="https://github.com/Meet-kasediya/Color-palette/blob/master/paint.png"  height="350" width="400"></th></tr></table>
+<table><tr><th><img src="https://github.com/Meet-kasediya/Color-palette/blob/master/Untitled.png" alt="https://github.com/Meet-kasediya/Color-palette/blob/master/paint.png" height="320" width="400"></th><th><img src="https://github.com/Meet-kasediya/Color-palette/blob/master/paint.png" alt="https://github.com/Meet-kasediya/Color-palette/blob/master/paint.png"  height="320" width="400"></th></tr></table>
  
 
 ## 🧪 Running the tests 
