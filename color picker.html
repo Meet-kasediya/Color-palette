@@ -1,0 +1,60 @@
+ 
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    
+    <meta charset="utf-8">
+   
+<link rel="stylesheet" type="text/css" href="paints.css">
+
+    <title>Useful event target example</title>
+ 
+
+  </head>
+
+  <body class="window">     <span ><a href="https://github.com/Meet-kasediya/" target="_blank">Github Files</a></span>
+
+      <!-- Resets the whole color palette -->
+  <button onmouseover="window.location.href=window.location.href" >Reset palate</button>
+  <!-- Oh its nothing... it just refreshes the whole page:) -->
+
+  <h1 onclick="this.innerHTML = 'And guess what! this is all yours!';"> & Color Palette & </h1>
+ <p class="credits"><a href="https://www.linkedin.com/in/meet-kasediya-6308031ab/">Created by meet kasediya</a></p>
+ 
+    <script>
+      for(let i = 1; i <= 418; i++) {    
+      // display 342 divs
+        const palette = document.createElement('div');     
+        //creating color palette
+        document.body.appendChild(palette);
+      }
+
+      function random(number) {
+
+        //creating random RGB value
+        return Math.floor(Math.random() * number);      
+      }
+
+      function changebgclr() { 
+
+      // to display random colors
+        const getrandom = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+        return getrandom;
+      }
+
+      // selecting all palettes (divs)
+      const Palettes = document.querySelectorAll('div');    
+
+      // change color on hover
+      for(let i = 0; i < Palettes.length; i++) {
+        Palettes[i].onmouseover = function(e) {
+          e.target.style.backgroundColor = changebgclr();
+        }
+      }
+    </script>
+
+ 
+  </body>
+</html>

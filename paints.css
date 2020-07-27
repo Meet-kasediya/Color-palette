@@ -1,0 +1,136 @@
+
+            div  {
+        background-color: whitesmoke;
+        height: 50px;
+        width: 50px;
+        float: left;
+        border-radius:12px 12px 12px 12px;
+ 
+          }
+
+      div:hover{  
+        transform: rotate(-3deg)   
+        translate(20px,-15px);
+        box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+        transition: .05s;
+
+
+       }
+      .window{
+ 
+        max-height: 900px;
+        max-width: 1000px;
+        border-top:     double green 12px;
+        border-right:     red dotted 12px;
+        border-left:     blue dotted 12px;
+        border-bottom: double salmon 12px; 
+        padding: 20px;
+
+      }
+
+
+h1{ 
+
+  font-family: 'Pathway Gothic One', cursive;
+  letter-spacing: 3px;
+  text-shadow: 0px 3px 5px rgba(255,255,255,0.6);
+  font-size: 40px;
+  text-align: center;
+}
+
+
+       button{
+
+           margin-top: -32px;
+           border-radius:12px;
+           font-size:22px; 
+           border: 2px solid whitesmoke; 
+           color: black; 
+           position: absolute; 
+          }
+
+		button:hover{ border:2px black solid;  }
+
+body{
+
+  margin: 35px; 
+  background-image: linear-gradient(to right top, #3a1c71, #642274, #862c75, #a33c75, #bc4f75, #cb5d75, #d86c75, #e47c76, #ec8876, #f49577, #faa278, #ffaf7b);
+
+}
+
+
+ 
+
+
+.credits a:hover{
+
+  color: salmon;
+  background-color: black;
+
+}
+ .credits a{
+
+  text-decoration: none;
+  color: black; 
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: salmon;
+  position: fixed;
+  left: 0;
+  top:245px; 
+  padding: 8px;
+  writing-mode:tb-rl;
+  -webkit-transform:rotate(-180deg);
+  -moz-transform:rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  -ms-transform:rotate(-180deg);
+  transform: rotate(-180deg);
+
+}
+
+ 
+
+
+/* 
+••••••••
+••••••••
+••••••••
+••••• 
+•••*/
+ 
+span a{    
+
+    font-size: 1rem;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: whitesmoke;
+    position: fixed;
+    right: 0;
+    top: 0; 
+    padding: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0 0 0 12px ;
+    font: 300 18px/1.5 Merriweather, serif;
+    
+   }    
+
+
+
+
+       span a:hover{
+ 
+          background-color: black;
+          color: white;
+        }
+
+        sub{font-size: 16px; }   
+
+
+  /* 
+  Ok so you have made it this far, that means you are very keen to on my code. 
+  Anyway I don't really mind it. This is a great way to learn so you actually doing the right thing:)
+  Follow me
+*/
