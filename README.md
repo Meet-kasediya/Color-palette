@@ -1,4 +1,4 @@
-# Color-palette
+# Colour-palette
 
 Check out the pics:-
 
